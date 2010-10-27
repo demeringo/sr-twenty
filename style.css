@@ -1,0 +1,12 @@
+/*
+Theme Name: sr twenty
+Theme URI: http://samba-resille.org/
+Description: The theme of Samba Resille. Implemented as a child theme for the twenty-ten theme.
+Author: olivier de Méringo
+Template: twentyten
+Version: 1.0
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style
+*/
+
+@import url("../twentyten/style.css");
+
