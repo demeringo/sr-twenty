@@ -10,3 +10,42 @@ Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-backgr
 
 @import url("../twentyten/style.css");
 
+/* =Global Elements
+-------------------------------------------------------------- */
+
+/* Main global 'theme' and typographic styles */
+body {
+	background: url("haunted.gif");
+    }
+/* =Header
+-------------------------------------------------------------- */
+#masthead {
+    background: #1146D2;
+}
+
+#site-title {
+    display: none;
+}
+
+#site-description {
+    display: none;
+}
+
+/* This is the custom header image */
+#branding img {
+    height: 87px;
+    background: url("header.jpg");
+    background-repeat: no-repeat ;
+    border: none;
+}
+
+
+
+#wrapper{
+    background: #FBC92C;
+}
+#main {
+    background: url("fondHaut.jpg");
+    background-repeat: no-repeat ;
+
+}
