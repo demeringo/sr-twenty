@@ -19,6 +19,20 @@ body {
     }
 /* =Header
 -------------------------------------------------------------- */
+#wrapper{
+    background: none;
+    /*background: #FBC92C;*/
+}
+
+/* =Header
+-------------------------------------------------------------- */
+
+#header {
+    margin-top: 0;
+    padding-top: 0;
+    border: 1px solid white;
+}
+ 
 #masthead {
     background: #1146D2;
 }
@@ -32,20 +46,40 @@ body {
 }
 
 /* This is the custom header image */
-#branding img {
+/* Not needed with the custom function */
+/*#branding img {
     height: 87px;
     background: url("header.jpg");
     background-repeat: no-repeat ;
     border: none;
+}*/
+
+#access{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
 }
 
-
-
-#wrapper{
-    background: #FBC92C;
-}
 #main {
     background: url("fondHaut.jpg");
     background-repeat: no-repeat ;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+
+/* main content fonts */
+#content {
+    color:black;
+    /*font-size:16px;
+    line-height:24px;*/
+}
+
+/* =Footer
+-------------------------------------------------------------- */
+#footer {
+    background: #FBC92C;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 
 }
