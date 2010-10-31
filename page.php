@@ -32,9 +32,7 @@ get_header(); ?>
 						<?php edit_post_link( __( 'Edit', 'twentyten' ), '<span class="edit-link">', '</span>' ); ?>
 					</div><!-- .entry-content -->
 				</div><!-- #post-## -->
-<!--
-				<?php comments_template( '', true ); ?>
--->
+				<?php //comments_template( '', true ); ?>
 <?php endwhile; ?>
 
 			</div><!-- #content -->
