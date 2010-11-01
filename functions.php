@@ -9,4 +9,7 @@ function sr_header_height($size){
 /*function sr_header_width($size){
    return 900;
 }*/
+
+/* Post thumbnail support */
+add_theme_support( 'post-thumbnails' );
 ?>
