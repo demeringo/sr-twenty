@@ -18,6 +18,7 @@ get_header(); ?>
 		<div id="container">
 			<div id="content" role="main">
 				<div id="focus-container">
+					<h1>Samba Résille c'est:</h1>
 					<div id="focus-1">
 						La companie
 					</div>
@@ -29,7 +30,15 @@ get_header(); ?>
 					</div>
 				</div>
 				<div id="news-container">
-					Actualités
+					<h1>Actualités</h1>
+					<div class="news-summary">
+						<h2>Le premier titre</h2>
+						Un extrait de news.
+					</div>
+					<div class="news-summary">
+						<h2>Un autre titre</h2>
+							Une autre news
+					</div>
 				</div>
 			
 			</div><!-- #content -->

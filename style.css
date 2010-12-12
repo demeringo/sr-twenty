@@ -82,6 +82,7 @@ body {
 #focus-container {
 	position: relative;
 	width: 600px;
+	height: 300px;
 	border: 1px solid blue;
 	background: blue;
 }
@@ -110,13 +111,15 @@ body {
 }
 
 #news-container{
+	margin-top: 75px;
 	position: relative;
-	top: 300px;
-	width: 600px;
-	height: 600px;
 	background: yellow;
+	width: 600px;
 }
 
+.news-summary{
+	border: 1px solid blue;
+	}
 
 /* =Footer
 -------------------------------------------------------------- */
