@@ -17,14 +17,21 @@ get_header(); ?>
 
 		<div id="container">
 			<div id="content" role="main">
-
-			<?php
-			/* Run the loop to output the posts.
-			 * If you want to overload this in a child theme then include a file
-			 * called loop-index.php and that will be used instead.
-			 */
-			 get_template_part( 'loop', 'index' );
-			?>
+				<div id="focus-container">
+					<div id="focus-1">
+						La companie
+					</div>
+					<div id="focus-2">
+						Le lieu
+					</div>
+					<div id="focus-3">
+						Nos actions
+					</div>
+				</div>
+				<div id="news-container">
+					Actualités
+				</div>
+			
 			</div><!-- #content -->
 		</div><!-- #container -->
 

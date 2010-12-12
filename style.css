@@ -74,6 +74,50 @@ body {
     line-height:24px;*/
 }
 
+/*----------------------------
+ Home page zones
+-----------------------------*/
+
+/* Focus area */
+#focus-container {
+	position: relative;
+	width: 600px;
+	border: 1px solid blue;
+	background: blue;
+}
+#focus-1 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+	background: green;
+}
+#focus-2{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 200px;
+	border: 1px solid white;
+	background: white;
+}
+#focus-3{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left: 400px;
+	border: 1px solid red;
+	background: red;
+}
+
+#news-container{
+	position: relative;
+	top: 300px;
+	width: 600px;
+	height: 600px;
+	background: yellow;
+}
+
+
 /* =Footer
 -------------------------------------------------------------- */
 #footer {
