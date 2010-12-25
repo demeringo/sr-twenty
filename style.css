@@ -15,12 +15,12 @@ Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-backgr
 
 /* Main global 'theme' and typographic styles */
 body {
-	background: url("haunted.gif");
+	//background: url("haunted.gif");
     }
 /* =Header
 -------------------------------------------------------------- */
 #wrapper{
-    background: none;
+    //background: none;
     /*background: #FBC92C;*/
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 #main {
-    background: url("fondHaut.jpg");
+    //background: url("fondHaut.jpg");
     background-repeat: no-repeat ;
     border-right: 1px solid white;
     border-left: 1px solid white;
@@ -98,22 +98,22 @@ body {
 	width: 600px;
 	height: 300px;
 	border: 1px solid blue;
-	background: blue;
+	//background: white;
 }
 #focus-1 {
 	position: absolute;
 	width: 200px;
 	height: 200px;
 	border: 1px solid green;
-	background: green;
+	//background: white;
 }
 #focus-2{
 	position: absolute;
 	width: 200px;
 	height: 200px;
 	left: 200px;
-	border: 1px solid white;
-	background: white;
+	border: 1px solid yellow;
+	//background: white;
 }
 #focus-3{
 	position: absolute;
@@ -121,18 +121,24 @@ body {
 	height: 200px;
 	left: 400px;
 	border: 1px solid red;
-	background: red;
+	//background: red;
 }
 
 #news-container{
 	margin-top: 75px;
 	position: relative;
-	background: yellow;
+	border: 1px solid green;
+	//background: yellow;
 	width: 600px;
 }
 
 .news-summary{
 	border: 1px solid blue;
+	}
+
+
+#event-sidebar{
+	color: black;
 	}
 
 /* =Footer

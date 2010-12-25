@@ -20,13 +20,25 @@ get_header(); ?>
 				<div id="focus-container">
 					<h1>Samba Résille c'est:</h1>
 					<div id="focus-1">
-						La companie
+						<h2>La companie</h2>
+						<img src="" alt="photo de la companie">
+						<p>
+						Description de la companie, spectacles etc.
+						</p>
 					</div>
 					<div id="focus-2">
-						Le lieu
+						<h2>Le lieu</h2>
+						<img src="" alt="photo du lieu">
+						<p>
+						Le CICC est un lieu où se croisent …
+						</p>
 					</div>
 					<div id="focus-3">
-						Nos actions
+						<h2>Nos actions</h2>
+						<img src="" alt="photo du lieu">
+						<p>
+						Nos actions décrites ici.
+						</p>
 					</div>
 				</div>
 				<div id="news-container">
