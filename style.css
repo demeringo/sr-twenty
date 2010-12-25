@@ -35,6 +35,7 @@ body {
  
 #masthead {
     background: #1146D2;
+    height: 130px;
 }
 
 #site-title {
@@ -46,11 +47,12 @@ body {
 }
 
 #short-menu{
-	position: absolute;
-	top: -30px;
+    display: inline-block;
+	position: relative;
+	top: -100px;
 	left: 730px;
 	width: 200px;
-	
+	height: 87px;
 	background: white;
 	}
 

@@ -87,14 +87,15 @@
 				
 
 			</div><!-- #access -->
-		</div><!-- #masthead -->
-			</div><!-- #header -->
-
-	<div id="main">
-		<div id="short-menu">
+			<div id="short-menu">
 					<ul>
 					<li>Contacts</li>
 					<li>Espace presse</li>
 					<li>Rechercher:<input type="text"></li>
 					</ul>
 				</div>
+		</div><!-- #masthead -->
+			</div><!-- #header -->
+
+	<div id="main">
+		
