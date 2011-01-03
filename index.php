@@ -48,7 +48,8 @@ get_header(); ?>
 					<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 					<div class="news-summary">
 						<h2><?php the_title(); ?></h2>
-						<?php the_content(); ?>
+						<p><?php the_content(); ?></p>
+						<a href="<?php the_permalink(); ?>">En savoir plus…</a>
 					</div>
 					<?php endwhile; ?>
 				</div>

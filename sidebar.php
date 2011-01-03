@@ -17,6 +17,7 @@
 					<div class="news-summary">
 						<h2><?php the_title(); ?></h2>
 						<p><?php the_content(); ?></p>
+						<a href="<?php the_permalink(); ?>">En savoir plus…</a>
 					</div>
 				<?php endwhile; ?>
 			</div>
