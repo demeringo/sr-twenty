@@ -15,10 +15,11 @@
 				<?php $my_query = new WP_Query('category_name=evenements&posts_per_page=3'); ?>
 					<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 					<div class="news-summary">
-						<h2><?php the_title(); ?></h2>
-						<p><?php the_content(); ?></p>
-						<a href="<?php the_permalink(); ?>">En savoir plus…</a>
+						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+						<?php echo get_the_post_thumbnail($page->ID, 'thumbnail'); ?>
+						<?php the_excerpt(); ?>
 					</div>
 				<?php endwhile; ?>
+				<p><a href="/site/category/news/">Toute la progra.</a></p>
 			</div>
 		</div><!-- #primary .widget-area -->

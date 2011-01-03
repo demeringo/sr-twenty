@@ -127,6 +127,10 @@ body {
 	color: black;
 	}
 
+.attachment-thumbnail{
+   float: left;
+  }
+
 /* =Footer
 -------------------------------------------------------------- */
 #footer {
