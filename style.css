@@ -121,6 +121,10 @@ body {
 .news-summary{
 	border: 1px solid blue;
 	}
+.news-summary p{
+     font-size: 12px;
+    line-height: 18px;
+}    
 
 
 #event-sidebar{
@@ -129,12 +133,12 @@ body {
 
 .attachment-thumbnail{
    float: left;
+   margin: 10px;
   }
 
 /* =Footer
 -------------------------------------------------------------- */
 #footer {
-    background: #FBC92C;
     border-bottom: 1px solid white;
     border-left: 1px solid white;
     border-right: 1px solid white;
