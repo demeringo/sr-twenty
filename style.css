@@ -55,8 +55,7 @@ body {
 	background: transparent;
     color: white;
     font: 18px;
-    border: 1px solid red;
-	}
+   	}
 
 /* This is the custom header image */
 /* Not needed with the custom function */
@@ -87,7 +86,6 @@ body {
 /* main content fonts */
 #content {
     color:black;
-    border: 1px solid red;
     margin:0;
     /*font-size:16px;
     line-height:24px;*/
@@ -100,7 +98,9 @@ body {
  Home page zones
 -----------------------------*/
 
-/* Focus area */
+/* ------------
+ Focus area (3 zones on home page)
+ ----------- */
 #focus-container {
 margin:0;
 padding: 0;
@@ -121,7 +121,7 @@ padding: 0;
 #focus-2{
 	position: absolute;
 	width: 220px;
-	height: 200px;
+	height: 220px;
 	left: 240px;
 	//border: 1px solid yellow;
 	//background: white;
@@ -129,18 +129,27 @@ padding: 0;
 #focus-3{
 	position: absolute;
 	width: 220px;
-	height: 200px;
+	height: 220px;
 	left: 480px;
 	//border: 1px solid red;
 	//background: red;
 }
 
+
+.focus > img{
+   width: 220px;
+	height: 220px;
+    }
+/* -------------------
+News area on home page
+--------------------- */
+
 #news-container{
-	margin-top: 75px;
+	margin-top: 175px;
 	position: relative;
 	border: 1px solid green;
 	//background: yellow;
-	width: 600px;
+	width: 700px;
 }
 
 .news-summary{
@@ -158,7 +167,7 @@ padding: 0;
 
 .attachment-thumbnail{
    float: left;
-   margin: 10px;
+   margin: 0px 10px 0px 0px;
   }
 
 /* =Footer

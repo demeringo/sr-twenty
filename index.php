@@ -19,23 +19,23 @@ get_header(); ?>
 			<div id="content" role="main">
 				<div id="focus-container">
 					<h1>Samba Résille c'est:</h1>
-					<div id="focus-1">
+					<div class="focus" id="focus-1">
 						<h2>La companie</h2>
-						<img src="" alt="photo de la companie">
+						<img width="220px" height="220px" src="/site/wp-content/themes/sr-twenty/img/troupe-chapiteau.jpg" alt="photo de la companie">
 						<p>
 						Description de la companie, spectacles etc.
 						</p>
 					</div>
-					<div id="focus-2">
+					<div class="focus" id="focus-2">
 						<h2>Le lieu</h2>
-						<img src="" alt="photo du lieu">
+						<img width="220px" height="220px" src="/site/wp-content/themes/sr-twenty/img/troupe-chapiteau.jpg" alt="photo de la companie">
 						<p>
 						Le CICC est un lieu où se croisent …
 						</p>
 					</div>
-					<div id="focus-3">
+					<div class="focus" id="focus-3">
 						<h2>Nos actions</h2>
-						<img src="" alt="photo du lieu">
+						<img width="220px" height="220px" src="/site/wp-content/themes/sr-twenty/img/troupe-chapiteau.jpg" alt="photo de la companie">
 						<p>
 						Nos actions décrites ici.
 						</p>
