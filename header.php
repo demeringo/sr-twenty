@@ -11,6 +11,19 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+
+<script type="text/javascript">
+// Insert optional override object before the function
+
+createGridder = function() {
+  document.body.appendChild(
+    document.createElement('script'))
+    .src='http://localhost:8888/site/wp-content/themes/sr-twenty/960.gridder.js';
+}
+</script>
+
+
+
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <title><?php
 	/*
@@ -67,7 +80,9 @@
 <!-- Analytics tracking End -->
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> onload="createGridder()">
+
+
 <div id="wrapper" class="hfeed">
 	<div id="header">
 		<div id="masthead">
