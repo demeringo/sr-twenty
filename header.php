@@ -118,11 +118,9 @@ createGridder = function() {
 
 			</div><!-- #access -->
 			<div id="short-menu">
-					<ul>
-					<li>Contacts</li>
-					<li>Espace presse</li>
-					<li>Rechercher:<input type="text"></li>
-					</ul>
+					<a>Contacts</a><br/>
+					<a>Espace presse</a><br/>
+					<a>Rechercher:</a><br/>
 				</div>
 		</div><!-- #masthead -->
 			</div><!-- #header -->
