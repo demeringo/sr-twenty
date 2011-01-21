@@ -30,7 +30,6 @@ body {
 #header {
     margin-top: 0;
     padding-top: 0;
-    border: 1px solid white;
 }
  
 #masthead {
@@ -50,10 +49,13 @@ body {
     display: inline-block;
 	position: relative;
 	top: -100px;
-	left: 730px;
-	width: 200px;
+	left: 720px;
+	width: 220px;
 	height: 87px;
-	background: white;
+	background: transparent;
+    color: white;
+    font: 18px;
+    border: 1px solid red;
 	}
 
 /* This is the custom header image */
@@ -66,21 +68,27 @@ body {
 }*/
 
 #access{
-    border-right: 1px solid white;
-    border-left: 1px solid white;
+    
+    /*border-right: 1px solid white;
+    border-left: 1px solid white;*/
 }
 
 #main {
+    margin: 0px;
+    padding 0px;
     //background: url("fondHaut.jpg");
     background-repeat: no-repeat ;
     border-right: 1px solid white;
     border-left: 1px solid white;
 }
 
+#container
 
 /* main content fonts */
 #content {
     color:black;
+    border: 1px solid red;
+    margin:0;
     /*font-size:16px;
     line-height:24px;*/
 }
@@ -94,33 +102,36 @@ body {
 
 /* Focus area */
 #focus-container {
+margin:0;
+padding: 0;
 	position: relative;
-	width: 600px;
+	width: 700px;
 	height: 300px;
-	border: 1px solid blue;
+	//border: 1px solid blue;
 	//background: white;
 }
 #focus-1 {
 	position: absolute;
-	width: 200px;
-	height: 200px;
-	border: 1px solid green;
+	width: 220px;
+	height: 220px;
+    //margin: 0px 10px 0px 0px;
+	//border: 1px solid green;
 	//background: white;
 }
 #focus-2{
 	position: absolute;
-	width: 200px;
+	width: 220px;
 	height: 200px;
-	left: 200px;
-	border: 1px solid yellow;
+	left: 240px;
+	//border: 1px solid yellow;
 	//background: white;
 }
 #focus-3{
 	position: absolute;
-	width: 200px;
+	width: 220px;
 	height: 200px;
-	left: 400px;
-	border: 1px solid red;
+	left: 480px;
+	//border: 1px solid red;
 	//background: red;
 }
 
