@@ -80,7 +80,7 @@ createGridder = function() {
 <!-- Analytics tracking End -->
 </head>
 
-<body <?php body_class(); ?> onload="createGridder()">
+<body <?php body_class(); ?> onload="//createGridder()">
 
 
 <div id="wrapper" class="hfeed">
