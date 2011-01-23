@@ -118,8 +118,8 @@ createGridder = function() {
 
 			</div><!-- #access -->
 			<div id="short-menu">
-					<a>Contacts</a><br/>
-					<a>Espace presse</a><br/>
+					<a href="/site/contacts/" >Contacts</a><br/>
+					<a href="/site/espace-presse/">Espace presse</a><br/>
 					<?php get_search_form(); ?>
 				</div>
 		</div><!-- #masthead -->

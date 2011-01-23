@@ -78,7 +78,7 @@ body, input, textarea, .page-title span, .pingback a.url{
 #short-menu{
     display: inline-block;
 	position: relative;
-	top: -100px;
+	top: -68px;
 	left: 720px;
 	width: 220px;
 	height: 87px;
@@ -87,6 +87,14 @@ body, input, textarea, .page-title span, .pingback a.url{
     font-family: arial;
     font-size: 14px;
    	}
+#short-menu a{
+    color: white;
+    font-weight: bold;
+}
+#short-menu a:hover{
+    color: #FF782F;
+    font-weight: bold;
+}
 
 /* This is the custom header image */
 /* Not needed with the custom function */
@@ -182,9 +190,8 @@ Events in the sidebar
 	}
     
 #event-sidebar h1{
-font-size: 24px;
-line-height: 1.5em;
-
+    font-size: 24px;
+    line-height: 1.5em;
 }
 
 .attachment-thumbnail{
