@@ -10,18 +10,48 @@ Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-backgr
 
 @import url("../twentyten/style.css");
 
-/* =Global Elements
--------------------------------------------------------------- */
 
-/* Main global 'theme' and typographic styles */
+
+/* ---------
+Typography
+----------- */
 body {
-	//background: url("haunted.gif");
-    }
-/* =Header
--------------------------------------------------------------- */
-#wrapper{
-    //background: none;
-    /*background: #FBC92C;*/
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/* main content fonts */
+#content {
+    //color:black;
+    margin:0;
+    //font-size:12px;
+
+}
+
+p { 
+  margin-bottom: 18px; 
+}
+
+h1, #content h1 {
+    font-size: 24px; 
+    line-height: 36px;
+    margin-bottom: 18px;
+    color: #17777F; 
+}
+
+h2, #content h2, h2>a:link{ 
+  font-size: 18px; 
+  line-height: 18px; 
+  margin-bottom: 18px;
+  color: #FF782F;
+}
+h3, #content h3{ 
+  font-size: 12px; 
+  line-height: 18px; 
+}
+
+body, input, textarea, .page-title span, .pingback a.url{
+    font-family: 'Trebuchet MS',Helvetica,sans-serif;
 }
 
 /* =Header
@@ -54,7 +84,8 @@ body {
 	height: 87px;
 	background: transparent;
     color: white;
-    font: 18px;
+    font-family: arial;
+    font-size: 14px;
    	}
 
 /* This is the custom header image */
@@ -66,11 +97,6 @@ body {
     border: none;
 }*/
 
-#access{
-    
-    /*border-right: 1px solid white;
-    border-left: 1px solid white;*/
-}
 
 #main {
     margin: 0px;
@@ -81,15 +107,8 @@ body {
     border-left: 1px solid white;
 }
 
-#container
 
-/* main content fonts */
-#content {
-    color:black;
-    margin:0;
-    /*font-size:16px;
-    line-height:24px;*/
-}
+
 
 
 
@@ -102,44 +121,36 @@ body {
  Focus area (3 zones on home page)
  ----------- */
 #focus-container {
-margin:0;
-padding: 0;
+    margin:0;
+    padding: 0;
 	position: relative;
 	width: 700px;
 	height: 300px;
-	//border: 1px solid blue;
-	//background: white;
 }
 #focus-1 {
 	position: absolute;
 	width: 220px;
 	height: 220px;
-    //margin: 0px 10px 0px 0px;
-	//border: 1px solid green;
-	//background: white;
 }
 #focus-2{
 	position: absolute;
 	width: 220px;
 	height: 220px;
 	left: 240px;
-	//border: 1px solid yellow;
-	//background: white;
 }
 #focus-3{
 	position: absolute;
 	width: 220px;
 	height: 220px;
 	left: 480px;
-	//border: 1px solid red;
-	//background: red;
 }
 
 
 .focus > img{
-   width: 220px;
+    width: 220px;
 	height: 220px;
-    }
+}
+
 /* -------------------
 News area on home page
 --------------------- */
@@ -147,23 +158,34 @@ News area on home page
 #news-container{
 	margin-top: 175px;
 	position: relative;
-	border: 1px solid green;
-	//background: yellow;
 	width: 700px;
 }
 
-.news-summary{
-	border: 1px solid blue;
-	}
+.news-summary h2{
+    display: inline;
+}
+
 .news-summary p{
      font-size: 12px;
     line-height: 18px;
-}    
+} 
 
+.news-summary img{
+    margin: 18px 0px 18px 0px;
+}   
 
+/* ------------------
+Events in the sidebar
+--------------------*/
 #event-sidebar{
 	color: black;
 	}
+    
+#event-sidebar h1{
+font-size: 24px;
+line-height: 1.5em;
+
+}
 
 .attachment-thumbnail{
    float: left;
@@ -178,3 +200,5 @@ News area on home page
     border-right: 1px solid white;
 
 }
+
+

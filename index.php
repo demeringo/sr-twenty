@@ -34,8 +34,10 @@ get_header(); ?>
 						</p>
 					</div>
 					<div class="focus" id="focus-3">
-						<h2>Nos actions</h2>
-						<img width="220px" height="220px" src="/site/wp-content/themes/sr-twenty/img/troupe-chapiteau.jpg" alt="photo de la companie">
+											<h2>Nos actions</h2>
+					<img width="220px" height="220px" src="/site/wp-content/themes/sr-twenty/img/troupe-chapiteau.jpg" alt="photo de la companie">
+
+						
 						<p>
 						Nos actions décrites ici.
 						</p>
@@ -47,8 +49,8 @@ get_header(); ?>
 					<?php $my_query = new WP_Query('category_name=news&posts_per_page=3'); ?>
 					<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
 					<div class="news-summary">
-						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-						<?php echo get_the_post_thumbnail($page->ID, 'thumbnail'); ?>
+						
+						<?php echo get_the_post_thumbnail($page->ID, 'thumbnail'); ?><h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 						<?php the_excerpt(); ?>
 					</div>
 					<?php endwhile; ?>
