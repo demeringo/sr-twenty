@@ -109,14 +109,15 @@ body, input, textarea, .page-title span, .pingback a.url{
 #main {
     margin: 0px;
     padding 0px;
-    //background: url("fondHaut.jpg");
     background-repeat: no-repeat ;
     border-right: 1px solid white;
     border-left: 1px solid white;
 }
 
 
-
+#content {
+    width: 620px;
+}
 
 
 
