@@ -32,14 +32,15 @@ p {
   margin-bottom: 18px; 
 }
 
-h1, #content h1 {
+h1, #content h1, #content h1.entry-title{
     font-size: 24px; 
     line-height: 36px;
     margin-bottom: 18px;
     color: #17777F; 
 }
 
-h2, #content h2, h2>a:link{ 
+
+h2, #content h2, h2>a:link, h2.entry-title { 
   font-size: 18px; 
   line-height: 18px; 
   margin-bottom: 18px;
