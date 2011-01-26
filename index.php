@@ -20,27 +20,31 @@ get_header(); ?>
 				<div id="focus-container">
 					<h1>Samba Résille c'est:</h1>
 					<div class="focus" id="focus-1">
+						<a href="/site/spectacle/">
 						<h2>La companie</h2>
-						<img width="220px" height="220px" src="/site/wp-content/themes/sr-twenty/img/troupe-chapiteau.jpg" alt="photo de la companie">
+						<img class="focus" src="/site/wp-content/themes/sr-twenty/img/saragosse1.jpg" alt="photo de la companie">
 						<p>
 						Description de la companie, spectacles etc.
 						</p>
+						</a>
 					</div>
 					<div class="focus" id="focus-2">
+						<a href="/site/le-lieu/">
 						<h2>Le lieu</h2>
-						<img width="220px" height="220px" src="/site/wp-content/themes/sr-twenty/img/troupe-chapiteau.jpg" alt="photo de la companie">
+						<img class="focus" src="/site/wp-content/themes/sr-twenty/img/ciccDevanture.jpg" alt="photo de la companie">
 						<p>
 						Le CICC est un lieu où se croisent …
 						</p>
+						</a>
 					</div>
 					<div class="focus" id="focus-3">
-											<h2>Nos actions</h2>
-					<img width="220px" height="220px" src="/site/wp-content/themes/sr-twenty/img/troupe-chapiteau.jpg" alt="photo de la companie">
-
-						
+						<a href="/site/les-actions/">
+						<h2>Nos actions</h2>
+						<img class="focus" src="/site/wp-content/themes/sr-twenty/img/PPN1_2.jpg" alt="photo de la companie">
 						<p>
 						Nos actions décrites ici.
 						</p>
+						</a>
 					</div>
 				</div>
 				<div id="news-container">

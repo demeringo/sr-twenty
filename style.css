@@ -20,13 +20,17 @@ body {
     line-height: 18px;
 }
 
-/* main content fonts */
 #content {
-    //color:black;
-    margin:0;
-    //font-size:12px;
-
+    margin: 0px;
 }
+
+/* main content fonts */
+#content, #content textarea, #content p {
+    //color:black;
+    //margin:0;
+    //font-size:12px;
+}
+
 
 p { 
   margin-bottom: 18px; 
@@ -137,28 +141,27 @@ body, input, textarea, .page-title span, .pingback a.url{
 	width: 700px;
 	height: 300px;
 }
+
+.focus{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+}
 #focus-1 {
-	position: absolute;
-	width: 220px;
-	height: 220px;
+    left: 0px;
 }
 #focus-2{
-	position: absolute;
-	width: 220px;
-	height: 220px;
 	left: 240px;
 }
 #focus-3{
-	position: absolute;
-	width: 220px;
-	height: 220px;
 	left: 480px;
 }
 
 
-.focus > img{
+#content img.focus{
+    position: relative;
     width: 220px;
-	height: 220px;
+	height: 170px;
 }
 
 /* -------------------
@@ -169,6 +172,7 @@ News area on home page
 	margin-top: 175px;
 	position: relative;
 	width: 700px;
+    border-top: 1px dashed lightgray;
 }
 
 .news-summary h2{
@@ -180,15 +184,18 @@ News area on home page
     line-height: 18px;
 } 
 
-.news-summary img{
-    margin: 18px 0px 18px 0px;
-}   
+
+#content img.attachment-thumbnail {
+    margin: 0px 10px 0 0;
+}
 
 /* ------------------
 Events in the sidebar
 --------------------*/
 #event-sidebar{
 	color: black;
+    margin-left: 18px;
+    //border-left: 1px dashed lightgray;
 	}
     
 #event-sidebar h1{
