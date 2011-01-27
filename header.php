@@ -123,10 +123,9 @@ createGridder = function() {
 				
 
 			</div><!-- #access -->
-			<div id="short-menu">
+			<div id="short-menu" class="alpha60">
 					<a href="/site/contacts/" >Contacts</a><br/>
 					<a href="/site/espace-presse/">Espace presse</a><br/>
-					<?php get_search_form(); ?>
 				</div>
 		</div><!-- #masthead -->
 			</div><!-- #header -->

@@ -87,23 +87,39 @@ h3, #content h3{
 #short-menu{
     display: inline-block;
 	position: relative;
-	top: -68px;
-	left: 720px;
-	width: 220px;
-	height: 87px;
-	background: transparent;
+	top: -75px;
+	left: 820px;
+	width: 100px;
+	//height: 81px;
+    padding: 0 10px 0 10px;
+	background: #17777F;
     color: white;
     font-family: arial;
     font-size: 14px;
+    text-align: right;
    	}
 #short-menu a{
     color: white;
-    font-weight: bold;
+    //font-weight: bold;
+    text-decoration: none;
 }
 #short-menu a:hover{
-    color: #FF782F;
-    font-weight: bold;
+    color: black;
+    //font-weight: bold;
+    
 }
+#short-menu.alpha60 {
+/* Fallback for web browsers that doesn't support RGBa */
+background: rgb(0, 0, 0);
+/* RGBa with 0.6 opacity */
+/*rgb(23, 119, 127)*/
+background: rgba(0, 0, 0, 0.2);
+/* For IE 5.5 - 7*/
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+/* For IE 8*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
 
 /* This is the custom header image */
 /* Not needed with the custom function */
