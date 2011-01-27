@@ -15,6 +15,10 @@ Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-backgr
 /* ---------
 Typography
 ----------- */
+body, input, textarea, .page-title span, .pingback a.url{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     font-size: 12px;
     line-height: 18px;
@@ -40,7 +44,8 @@ h1, #content h1, #content h1.entry-title{
     font-size: 24px; 
     line-height: 36px;
     margin-bottom: 18px;
-    color: #17777F; 
+    color: #FF782F;
+
 }
 
 
@@ -48,16 +53,15 @@ h2, #content h2, h2>a:link, h2.entry-title {
   font-size: 18px; 
   line-height: 18px; 
   margin-bottom: 18px;
-  color: #FF782F;
+  color: #17777F;
+  font-weight: bold;	
 }
 h3, #content h3{ 
   font-size: 12px; 
   line-height: 18px; 
 }
 
-body, input, textarea, .page-title span, .pingback a.url{
-    font-family: 'Trebuchet MS',Helvetica,sans-serif;
-}
+
 
 /* =Header
 -------------------------------------------------------------- */
