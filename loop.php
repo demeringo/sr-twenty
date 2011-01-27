@@ -131,6 +131,7 @@
 
 	<?php if ( is_archive() || is_search() ) : // Only display excerpts for archives and search. ?>
 			<div class="entry-summary">
+				<?php echo get_the_post_thumbnail($page->ID, 'thumbnail'); ?>
 				<?php the_excerpt(); ?>
 			</div><!-- .entry-summary -->
 	<?php else : ?>
