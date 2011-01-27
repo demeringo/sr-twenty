@@ -20,6 +20,6 @@
 						<?php the_excerpt(); ?>
 					</div>
 				<?php endwhile; ?>
-				<p><a href="/site/category/news/">Toute la progra.</a></p>
+				<p><a href="/site/category/evenements/">Toute la programmation →</a></p>
 			</div>
 		</div><!-- #primary .widget-area -->
