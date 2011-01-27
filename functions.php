@@ -1,4 +1,7 @@
 <?php
+
+define('child_template_directory', dirname( get_bloginfo('stylesheet_url')) );
+
 /* custom size of the header img */
 add_filter('twentyten_header_image_height','sr_header_height');
 //add_filter('twentyten_header_image_width','sr_header_width');
