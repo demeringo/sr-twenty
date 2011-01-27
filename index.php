@@ -18,13 +18,13 @@ get_header(); ?>
 		<div id="container">
 			<div id="content" role="main">
 				<div id="focus-container">
-					<h1>Samba Résille c'est:</h1>
+					<h1>Samba Résille, c'est :</h1>
 					<div class="focus" id="focus-1">
 						<a href="/site/spectacle/">
 						<h2>La companie</h2>
 						<img class="focus" src="/site/wp-content/themes/sr-twenty/img/saragosse1.jpg" alt="photo de la companie">
 						<p>
-						Description de la companie, spectacles etc.
+						Continuer la lecture →
 						</p>
 						</a>
 					</div>
@@ -33,7 +33,7 @@ get_header(); ?>
 						<h2>Le lieu</h2>
 						<img class="focus" src="/site/wp-content/themes/sr-twenty/img/ciccDevanture.jpg" alt="photo de la companie">
 						<p>
-						Le CICC est un lieu où se croisent …
+						Continuer la lecture →
 						</p>
 						</a>
 					</div>
@@ -42,8 +42,9 @@ get_header(); ?>
 						<h2>Nos actions</h2>
 						<img class="focus" src="/site/wp-content/themes/sr-twenty/img/PPN1_2.jpg" alt="photo de la companie">
 						<p>
-						Nos actions décrites ici.
+						Continuer la lecture →
 						</p>
+
 						</a>
 					</div>
 				</div>
