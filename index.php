@@ -21,8 +21,8 @@ get_header(); ?>
 					<h1>Samba Résille, c'est :</h1>
 					<div class="focus" id="focus-1">
 						<a href="/site/spectacle/">
-						<h2>La companie</h2>
-						<img class="focus" src="/site/wp-content/themes/sr-twenty/img/saragosse1.jpg" alt="photo de la companie">
+						<h2>La compagnie</h2>
+						<img class="focus" src="/site/wp-content/themes/sr-twenty/img/saragosse1.jpg" alt="photo de la compagnie">
 						<p>
 						Continuer la lecture →
 						</p>
@@ -31,7 +31,7 @@ get_header(); ?>
 					<div class="focus" id="focus-2">
 						<a href="/site/le-lieu/">
 						<h2>Le lieu</h2>
-						<img class="focus" src="/site/wp-content/themes/sr-twenty/img/ciccDevanture.jpg" alt="photo de la companie">
+						<img class="focus" src="/site/wp-content/themes/sr-twenty/img/ciccDevanture.jpg" alt="photo du CICC">
 						<p>
 						Continuer la lecture →
 						</p>
@@ -40,7 +40,7 @@ get_header(); ?>
 					<div class="focus" id="focus-3">
 						<a href="/site/les-actions/">
 						<h2>Nos actions</h2>
-						<img class="focus" src="/site/wp-content/themes/sr-twenty/img/PPN1_2.jpg" alt="photo de la companie">
+						<img class="focus" src="/site/wp-content/themes/sr-twenty/img/PPN1_2.jpg" alt="photo des PPNs">
 						<p>
 						Continuer la lecture →
 						</p>
