@@ -43,16 +43,17 @@ p {
 h1, #content h1, #content h1.entry-title{
     font-size: 24px; 
     line-height: 36px;
-    margin-bottom: 18px;
+    margin-bottom: 9px;
     color: #FF782F;
-
 }
 
 
 h2, #content h2, h2>a:link, h2.entry-title { 
+  
   font-size: 18px; 
   line-height: 18px; 
   margin-bottom: 18px;
+  margin-top: 0;
   color: #17777F;
   font-weight: bold;	
 }
@@ -160,6 +161,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endCo
 	position: relative;
 	width: 700px;
 	height: 300px;
+    border-bottom: 1px dotted lightgray;
 }
 
 .focus{
@@ -189,20 +191,21 @@ News area on home page
 --------------------- */
 
 #news-container{
-	margin-top: 35px;
+	margin-top: 20px;
 	position: relative;
-	width: 700px;
+    //padding: 0 0 0 010px;
+	width: 717px;
     height: 300px;
-    border-top: 1px dotted lightgray;
 }
 #news-container a{
     text-decoration: none;
     }
 .news-summary{
     position: relative;
-    width: 220px;
+    width: 219px;
     height: 220px;
-    margin: 0 20px 0 0px;
+    margin: 0 9px 0 0px;
+    padding: 0 10px 0 0;
     float: left;
     border-right: 1px dotted lightgray;
 }
