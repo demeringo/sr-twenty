@@ -13,28 +13,29 @@
 	</div><!-- #main -->
 
 	<div id="footer" role="contentinfo">
+
 		<div id="colophon">
+			<p>
+			<a href="<?php bloginfo('rss2_url'); ?>">Flux RSS des articles</a>
+			</p>
+			<p>
+			Contact: <a href="mailto:webmaster@samba-resille.org">webmaster@samba-resille.org</a>
+			</p>
+			
+			<p>
+			Samba Résille est une association de loi 1901.
+			<br/>
+			Agréée Jeunesse et Education Populaire n° 31-580 / Agréée Entreprise Solidaire n°31-012<br/>
+			Siret n° : 403 391 857 00030 / Code APE: 9001Z<br/>
+			Entrepreneur du Spectacle: Licence 1-1012395 / Licence 2-1012396 / Licence 3-1012397
+			<p>
+			Site sous licence Creative Commons.Toute reproduction interdite sans autorisation préalable.
+			</p>
+			<p>
+			<?php wp_loginout( get_permalink(), true ); ?>  
+			</p>
 
-<?php
-	/* A sidebar in the footer? Yep. You can can customize
-	 * your footer with four columns of widgets.
-	 */
-	get_sidebar( 'footer' );
-?>
-
-			<div id="site-info">
-				<a href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-					<?php bloginfo( 'name' ); ?>
-				</a>
-			</div><!-- #site-info -->
-
-			<div id="site-generator">
-				<?php do_action( 'twentyten_credits' ); ?>
-				<a href="<?php echo esc_url( __('http://wordpress.org/', 'twentyten') ); ?>"
-						title="<?php esc_attr_e('Semantic Personal Publishing Platform', 'twentyten'); ?>" rel="generator">
-					<?php printf( __('Proudly powered by %s.', 'twentyten'), 'WordPress' ); ?>
-				</a>
-			</div><!-- #site-generator -->
+			<!-- #site-generator -->
 
 		</div><!-- #colophon -->
 	</div><!-- #footer -->
