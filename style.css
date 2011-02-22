@@ -251,5 +251,25 @@ Events in the sidebar
     border-right: 1px solid white;
 
 }
+#footer-content{
+    position: relative;
+    height: 300px;
+}
 
+
+#footer1, #footer2, #footer3{
+    position: absolute;
+    width: 300px;
+    height: 220px;
+}
+
+#footer1 {
+    left: 0px;
+}
+#footer2{
+	left: 320px;
+}
+#footer3{
+	left: 620px;
+}
 
