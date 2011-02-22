@@ -31,7 +31,7 @@
 			</div>
 			<div id="footer2">
 				<p>
-				<strong>Contact:</strong><br/><br/>
+				<strong>Contact</strong><br/>
 				email: <a href="mailto:cicc@samba-resille.org">cicc@samba-resille.org</a><br/>
 				Téléphone: +33(0) 534 416 216<br/>
 				Télécopie : +33(0) 534 416 100
@@ -44,14 +44,14 @@
 				</p>
 			</div>
 			<div id="footer3">
-				<strong>Site web:</strong><br/>
+				<strong>Site web</strong> (<a href="http://samba-resille.org/">http://samba-resille.org/</a>) <br/>
 				Consultation en direction artistique et en ergonomie : <a href="mailto:charles.briens@wanadoo.fr">Charles Briens</a><br/>
 				Réalisation: <a href="mailto:olivier@le-moulin-de-verre.com">Olivier de Méringo</a> et Samba Résille.
 				</p>
 				<p>
 				<br/>
-				Contact: <a href="mailto:webmaster@samba-resille.org">webmaster@samba-resille.org</a><br/><br/>
-				Toute reproduction interdite sans autorisation préalable.
+				Contact: <a href="mailto:webmaster@samba-resille.org">webmaster@samba-resille.org</a><br/>
+				Reproduction interdite sans autorisation préalable.<br/>
 				</p>
 			</div>
 			</div>
