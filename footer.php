@@ -33,8 +33,7 @@
 				<p>
 				<strong>Contact</strong><br/>
 				email: <a href="mailto:cicc@samba-resille.org">cicc@samba-resille.org</a><br/>
-				Téléphone: +33(0) 534 416 216<br/>
-				Télécopie : +33(0) 534 416 100
+				Tél: +33(0) 534 416 216 / Fax: +33(0) 534 416 100
 				</p>
 				<p>
 				<a href="<?php bloginfo('rss2_url'); ?>">Flux RSS des articles</a>
