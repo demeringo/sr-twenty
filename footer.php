@@ -19,7 +19,7 @@
 			<div id="footer1">
 				<p>
 				<strong>Samba Résille</strong><br/>
-				38 rue Roquelaine, 31000 Toulouse (<a href="http://maps.google.fr/maps?f=q&source=embed&hl=fr&geocode=&q=38+rue+roquelaine+toulouse+samba+resille&sll=43.613149,1.446826&sspn=0.008187,0.01929&ie=UTF8&hq=samba+resille&hnear=38+Rue+Roquelaine,+31000+Toulouse,+Haute-Garonne,+Midi-Pyr%C3%A9n%C3%A9es&cid=3269167087290340956&ll=43.611595,1.446848&spn=0.012429,0.017252&z=14&iwloc=A">plan</a>)<br/>
+				38 rue Roquelaine, 31000 Toulouse (<a href="http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=38+rue+roquelaine+toulouse+samba+resille&amp;sll=43.613149,1.446826&amp;sspn=0.008187,0.01929&amp;ie=UTF8&amp;hq=samba+resille&amp;hnear=38+Rue+Roquelaine,+31000+Toulouse,+Haute-Garonne,+Midi-Pyr%C3%A9n%C3%A9es&amp;cid=3269167087290340956&amp;ll=43.611595,1.446848&amp;spn=0.012429,0.017252&amp;iwloc=A" style="color:#0000FF;text-align:left">plan</a>)<br/>
 				<br/>
 				Assocation loi 1901<br/>
 				Agréée Jeunesse et Education Populaire n° 31-580<br/>
@@ -43,17 +43,17 @@
 				</p>
 			</div>
 			<div id="footer3">
+				<p>
 				<strong>Site web</strong> (<a href="http://samba-resille.org/">http://samba-resille.org/</a>) <br/>
 				Consultation en direction artistique et en ergonomie : <a href="mailto:charles.briens@wanadoo.fr">Charles Briens</a><br/>
 				Réalisation: <a href="mailto:olivier@le-moulin-de-verre.com">Olivier de Méringo</a> et Samba Résille.
 				</p>
 				<p>
-				<br/>
 				Contact: <a href="mailto:webmaster@samba-resille.org">webmaster@samba-resille.org</a><br/>
-				Reproduction interdite sans autorisation préalable.<br/>
+				Reproduction interdite sans autorisation préalable.
 				</p>
 			</div>
-			</div>
+			</div><!-- footer content -->
 		
 			
 			
