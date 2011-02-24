@@ -90,7 +90,11 @@
 							( /* $src, $width, $height */ $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'post-thumbnail' ) ) &&
 							$image[1] >= HEADER_IMAGE_WIDTH ) :
 						// Houston, we have a new header image!
-						echo get_the_post_thumbnail( $post->ID, 'post-thumbnail' );
+						//echo get_the_post_thumbnail( $post->ID, 'post-thumbnail' );
+						//Use standard banner instead of custom banner depending on post
+						?>
+						<img src="<?php echo child_template_directory ?>/img/banniere-940x87.jpg" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" />
+						<?php
 					else : ?>
 						<!-- 
 						default configurable header image (commented out)
