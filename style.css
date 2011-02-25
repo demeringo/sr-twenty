@@ -246,11 +246,17 @@ Events in the sidebar
 /* =Footer
 -------------------------------------------------------------- */
 #footer {
+    margin-top: 40px;
     border-bottom: 1px solid white;
     border-left: 1px solid white;
     border-right: 1px solid white;
 
 }
+
+#colophon{
+    border-top: 1px solid lightgrey;
+}
+
 #footer-content{
     position: relative;
     height: 300px;
