@@ -24,7 +24,7 @@
 				Assocation loi 1901<br/>
 				Agréée Jeunesse et Education Populaire n° 31-580<br/>
 				Agréée Entreprise Solidaire n°31-012<br/>
-				Entrepreneur du Spectacle: Licence 1-1012395 / Licence 2-1012396 / Licence 3-1012397<br/>
+				Entrepreneur du Spectacle: Licence 1-1040134 / Licence 2-1040135 / Licence 3-1040136<br/>
 				Siret n°: 403 391 857 00030 / Code APE: 9001Z<br/>
 				
 				</p>
