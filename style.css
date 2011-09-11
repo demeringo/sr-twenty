@@ -110,15 +110,18 @@ h3, #content h3{
     
 }
 #short-menu.alpha60 {
-/* Fallback for web browsers that doesn't support RGBa */
-background: rgb(0, 0, 0);
-/* RGBa with 0.6 opacity */
-/*rgb(23, 119, 127)*/
-background: rgba(0, 0, 0, 0.2);
-/* For IE 5.5 - 7*/
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-/* For IE 8*/
--ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    /*rgb(23, 119, 127)*/
+    background: rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 }
 
 
@@ -184,6 +187,9 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endCo
     position: relative;
     width: 220px;
 	height: 170px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 /* -------------------
