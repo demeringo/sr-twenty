@@ -2,9 +2,9 @@
 Theme Name: sr twenty adherent
 Theme URI: http://samba-resille.org/
 Description: The theme of Samba Resille website. Child theme of the twenty-ten.
-Author: Olivier de Méringo.
+Author: Olivier de Méringo, Charles Briens and Laurent Vildary
 Template: twentyten
-Version: 1.0
+Version: 1.1
 Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style
 */
 
@@ -44,7 +44,7 @@ h1, #content h1, #content h1.entry-title{
     font-size: 24px; 
     line-height: 36px;
     margin-bottom: 9px;
-    color: #FF782F;
+    color: #FB047F;
 }
 
 
@@ -54,7 +54,7 @@ h2, #content h2, h2>a:link, h2.entry-title {
   line-height: 18px; 
   margin-bottom: 18px;
   margin-top: 0;
-  color: #17777F;
+  color: #04BD5C;
   font-weight: bold;	
 }
 h3, #content h3{ 
@@ -126,7 +126,7 @@ h3, #content h3{
 
 
 /* This is the custom header image */
-/* Not needed with the custom function */
+/* Not needed with the custom function (see function.php)*/
 /*#branding img {
     height: 87px;
     background: url("header.jpg");
