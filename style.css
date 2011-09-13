@@ -285,3 +285,16 @@ Events in the sidebar
 	left: 620px;
 }
 
+
+/* rounded images */
+#content img {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+/* rounded thumbnails */
+.wp-post-image{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
