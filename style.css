@@ -166,6 +166,9 @@ h3, #content h3{
 	height: 300px;
     border-bottom: 1px dotted lightgray;
 }
+#focus-container a{
+    text-decoration: none;
+}
 
 .focus{
     position: absolute;
