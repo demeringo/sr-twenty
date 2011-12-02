@@ -239,6 +239,7 @@ Events in the sidebar
 #event-sidebar h1{
     font-size: 24px;
     line-height: 1.5em;
+    margin-left: 9px;
 }
 
 .attachment-thumbnail{
