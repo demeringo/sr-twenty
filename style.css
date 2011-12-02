@@ -41,25 +41,28 @@ p {
 }
 
 h1, #content h1, #content h1.entry-title{
-    font-size: 24px; 
-    line-height: 36px;
+    font-size: 18px;
+    line-height: 24px;
     margin-bottom: 9px;
     color: #BE0A26;
+    text-transform:uppercase;
+    font-weight:bold;
 }
 
 
 h2, #content h2, h2>a:link, h2.entry-title { 
-  
-  font-size: 18px; 
-  line-height: 18px; 
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: bold;
   margin-bottom: 18px;
   margin-top: 0;
   color: #F18F1D;
-  font-weight: bold;	
+  text-transform:uppercase;
 }
 h3, #content h3{ 
   font-size: 12px; 
-  line-height: 18px; 
+  line-height: 12px;
+  text-transform:uppercase;
 }
 
 
@@ -234,10 +237,14 @@ Events in the sidebar
 	color: black;
     margin-left: 18px;
     //border-left: 1px dashed lightgray;
+     background: #F1F1F1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 	}
     
 #event-sidebar h1{
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.5em;
     margin-left: 9px;
 }
@@ -246,6 +253,10 @@ Events in the sidebar
    float: left;
    margin: 0px 10px 0px 0px;
   }
+
+.evenement{
+    margin: 0px 9px 24px 9px;
+}
 
 /* =Footer
 -------------------------------------------------------------- */
