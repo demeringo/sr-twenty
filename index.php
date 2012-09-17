@@ -17,29 +17,30 @@ get_header(); ?>
 
 		<div id="container">
 			<div id="content" role="main">
-			<?php $my_query = new WP_Query('posts_per_page=4'); ?>
+			<?php $my_query = new WP_Query('posts_per_page=4s'); ?>
 				<?php while ($my_query->have_posts()) : $my_query->the_post(); $loopcounter++;?>
 					<?php if ($loopcounter <= 1) { ?>
 					<!-- Display first post in big -->
 					<div id="focus-container">
 						<h1><?php the_title(); ?></h1>
 						<div class="focus" id="focus-1">
-							<a href="<?php the_permalink(); ?>">
 							<?php the_excerpt(); ?>
-							<p>
+							<a href="<?php the_permalink(); ?>">
 							Continuer la lecture →
-							</p>
 							</a>
 						</div>
 					</div>
 					<div id="news-container">
 					<h1>Récent</h1>
 					<?php }else{ ?>
+						<!-- Display other smaller posts -->
 						<div class="news-summary">
 							<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 							<?php echo get_the_post_thumbnail($page->ID, 'thumbnail'); ?>
 							<p><?php the_excerpt(); ?></p>
-							<small><?php the_author() ?> <?php the_time('j F Y'); ?></small>
+							<a href="<?php the_permalink(); ?>">
+							Continuer la lecture →
+							</a>
 						</div>
 					<?php } ?>
 				<?php endwhile; ?>
