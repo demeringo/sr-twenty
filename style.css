@@ -2,9 +2,9 @@
 Theme Name: sr twenty adherent
 Theme URI: http://samba-resille.org/
 Description: The theme of Samba Resille website. Child theme of the twenty-ten.
-Author: Olivier de Méringo.
+Author: Olivier de Méringo, Charles Briens and Laurent Vildary
 Template: twentyten
-Version: 1.0
+Version: 1.1
 Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style
 */
 
@@ -41,25 +41,28 @@ p {
 }
 
 h1, #content h1, #content h1.entry-title{
-    font-size: 24px; 
-    line-height: 36px;
+    font-size: 18px;
+    line-height: 24px;
     margin-bottom: 9px;
-    color: #FF782F;
+    color: #BE0A26;
+    text-transform:uppercase;
+    font-weight:bold;
 }
 
 
 h2, #content h2, h2>a:link, h2.entry-title { 
-  
-  font-size: 18px; 
-  line-height: 18px; 
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: bold;
   margin-bottom: 18px;
   margin-top: 0;
-  color: #17777F;
-  font-weight: bold;	
+  color: #F18F1D;
+  text-transform:uppercase;
 }
 h3, #content h3{ 
   font-size: 12px; 
-  line-height: 18px; 
+  line-height: 12px;
+  text-transform:uppercase;
 }
 
 
@@ -126,7 +129,7 @@ h3, #content h3{
 
 
 /* This is the custom header image */
-/* Not needed with the custom function */
+/* Not needed with the custom function (see function.php)*/
 /*#branding img {
     height: 87px;
     background: url("header.jpg");
@@ -165,6 +168,9 @@ h3, #content h3{
 	width: 700px;
 	height: 300px;
     border-bottom: 1px dotted lightgray;
+}
+#focus-container a{
+    text-decoration: none;
 }
 
 .focus{
@@ -231,17 +237,26 @@ Events in the sidebar
 	color: black;
     margin-left: 18px;
     //border-left: 1px dashed lightgray;
+     background: #F1F1F1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 	}
     
 #event-sidebar h1{
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.5em;
+    margin-left: 9px;
 }
 
 .attachment-thumbnail{
    float: left;
    margin: 0px 10px 0px 0px;
   }
+
+.evenement{
+    margin: 0px 9px 24px 9px;
+}
 
 /* =Footer
 -------------------------------------------------------------- */
@@ -279,3 +294,16 @@ Events in the sidebar
 	left: 620px;
 }
 
+
+/* rounded images */
+#content img {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+/* rounded thumbnails */
+.wp-post-image{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
