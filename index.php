@@ -17,7 +17,7 @@ get_header(); ?>
 
 		<div id="container">
 			<div id="content" role="main">
-			<?php $my_query = new WP_Query('posts_per_page=4s'); ?>
+			<?php $my_query = new WP_Query('posts_per_page=4'); ?>
 				<?php while ($my_query->have_posts()) : $my_query->the_post(); $loopcounter++;?>
 					<?php if ($loopcounter <= 1) { ?>
 					<!-- Display first post in big -->
