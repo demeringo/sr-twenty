@@ -44,7 +44,6 @@ get_header(); ?>
 						</div>
 					<?php } ?>
 				<?php endwhile; ?>
-				<p><a href="/site/category/news/">Toute l'actu →</a></p>
 				</div>
 			</div><!-- #content -->
 		</div><!-- #container -->
