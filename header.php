@@ -99,9 +99,10 @@
 						<!-- 
 						default configurable header image (commented out)
 						-->
+						
+						<img src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" />
 						<!--
-						<img src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" />-->
-						<img src="<?php echo child_template_directory ?>/img/banniere-940x87.jpg" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" />
+						<img src="<?php echo child_template_directory ?>/img/banniere-940x87.jpg" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" />-->
 
 					<?php endif; ?>
 			
