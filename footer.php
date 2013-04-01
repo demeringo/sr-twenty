@@ -26,6 +26,7 @@
 				Agréée Entreprise Solidaire n°31-012<br/>
 				Entrepreneur du Spectacle: Licence 1-1040134 / Licence 2-1040135 / Licence 3-1040136<br/>
 				Siret n°: 403 391 857 00030 / Code APE: 9001Z<br/>
+				Organisme de Formation Professionnelle enregistré sous le n° 73 31 06816 31<br/>
 				
 				</p>
 			</div>
