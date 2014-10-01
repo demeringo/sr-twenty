@@ -35,7 +35,7 @@
                 </script><script type="text/javascript" src="http://samba-resille.org/site/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.6.11"></script>
 <!--END Scripts-->
 
-<div class="widget_wysija_cont html_wysija"><div id="msg-form-wysija-html5424669ee7913-1" class="wysija-msg ajax"></div><form id="form-wysija-html5424669ee7913-1" method="post" action="#wysija" class="widget_wysija html_wysija">
+<div class="widget_wysija_cont html_wysija"><div id="msg-form-wysija-html542c6b5a59257-1" class="wysija-msg ajax"></div><form id="form-wysija-html542c6b5a59257-1" method="post" action="#wysija" class="widget_wysija html_wysija">
 <p class="wysija-paragraph">
     <label>E-mail <span class="wysija-required">*</span></label>
     
@@ -56,10 +56,9 @@
     <input type="hidden" value="1" name="wysija-page" />
 
     
-        <input type="hidden" name="wysija[user_list][list_ids]" value="1" />
+        <input type="hidden" name="wysija[user_list][list_ids]" value="3" />
     
  </form></div>
-
 <!-- end newsletter-->
 			</div>
 		</div><!-- #primary .widget-area -->
