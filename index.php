@@ -17,6 +17,21 @@ get_header(); ?>
 
 		<div id="container">
 			<div id="content" role="main">
+			<div id="news-container">
+					<h1>Actualités</h1>
+					
+					<?php $my_query = new WP_Query('category_name=news&posts_per_page=6'); ?>
+					<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
+					<div class="news-summary">
+						
+						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+						<?php echo get_the_post_thumbnail($page->ID, 'thumbnail'); ?>
+						<?php the_excerpt(); ?>
+					</div>
+					<?php endwhile; ?>
+					<p><a id="all-news-link" href="/site/category/news/">Toute l'actu →</a></p>
+				</div>
+				<br/>
 				<div id="focus-container">
 					<h1>Samba Résille, c'est :</h1>
 					<div class="focus" id="focus-1">
@@ -48,20 +63,7 @@ get_header(); ?>
 						</a>
 					</div>
 				</div>
-				<div id="news-container">
-					<h1>Actualités</h1>
-					
-					<?php $my_query = new WP_Query('category_name=news&posts_per_page=3'); ?>
-					<?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
-					<div class="news-summary">
-						
-						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-						<?php echo get_the_post_thumbnail($page->ID, 'thumbnail'); ?>
-						<?php the_excerpt(); ?>
-					</div>
-					<?php endwhile; ?>
-					<p><a href="/site/category/news/">Toute l'actu →</a></p>
-				</div>
+				
 			
 			</div><!-- #content -->
 		</div><!-- #container -->

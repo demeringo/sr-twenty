@@ -160,11 +160,11 @@ h3, #content h3{
  ----------- */
 #focus-container {
     margin:0;
+    /*margin-top: 20px;*/
     padding: 0;
 	position: relative;
 	width: 700px;
 	height: 300px;
-    border-bottom: 1px dotted lightgray;
 }
 #focus-container a{
     text-decoration: none;
@@ -200,15 +200,20 @@ News area on home page
 --------------------- */
 
 #news-container{
-	margin-top: 20px;
 	position: relative;
     //padding: 0 0 0 010px;
 	width: 717px;
-    height: 300px;
+    height: 520px;
+    border-bottom: 1px dotted lightgray;
 }
 #news-container a{
     text-decoration: none;
     }
+    
+#all-news-link{
+	float: right;
+	margin-right: 20px;
+	}
 .news-summary{
     position: relative;
     width: 219px;
